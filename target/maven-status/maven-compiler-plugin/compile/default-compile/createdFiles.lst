@@ -1,9 +1,0 @@
-com/pyiapa/seatallocator/services/SeatAllocator.class
-com/pyiapa/seatallocator/domain/Passenger.class
-com/pyiapa/seatallocator/services/SeatAllocator$1.class
-com/pyiapa/seatallocator/services/SeatAllocator$2.class
-com/pyiapa/seatallocator/application/Main.class
-com/pyiapa/seatallocator/utilities/PassengerParser$1.class
-com/pyiapa/seatallocator/domain/RowDescriptor.class
-com/pyiapa/seatallocator/domain/SittingArrangement.class
-com/pyiapa/seatallocator/utilities/PassengerParser.class
