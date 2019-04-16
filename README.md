@@ -3,7 +3,7 @@
 
 ## Author ##
 
-Name:  Paris Yiapanis
+Name:  Paris Yiapanis  
 Email: pyiapa@gmail.com
 
 
@@ -115,12 +115,12 @@ actual rows is n then we get only the first n virtual rows.
 ## Classes ##
 
 
-* Main - the driver of the application
-* Passenger - holds information about a traveler
-* RowDescriptor - provides information about a given row in the plane
-* SittingArrangement- holds the result (the final sitting arrangement and overall satisfaction)
-* PassengerParser - parses the input
-* SeatAllocator - the heart of the application, computes sitting arrangement and satisfaction
+* __Main__ - the driver of the application
+* __Passenger__ - holds information about a traveler
+* __RowDescriptor__ - provides information about a given row in the plane
+* __SittingArrangement__ - holds the result (the final sitting arrangement and overall satisfaction)
+* __PassengerParser__ - parses the input
+* __SeatAllocator__ - the heart of the application, computes sitting arrangement and satisfaction
 
 
 ## Building and running ##
