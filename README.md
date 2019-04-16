@@ -1,21 +1,22 @@
----------------------
-AUTHOR
----------------------
+# seatallocator #
+-----------------
+
+## Author ##
+
 Name:  Paris Yiapanis
 Email: pyiapa@gmail.com
 
----------------------
-PROJECT DESCRIPTION
----------------------
+
+## Project Description ##
+
 
 This project determines the best sitting arrangements for a flight. 
 It takes as an input a file of passengers and plane dimensions (as a command line argument) 
 and prints the results to standard output.
 The output is the best passenger sitting configuration as well as overall satisfaction based on passenger preferences.
 
-----------------------
-IMPORTANT ASSUMPTIONS
-----------------------
+## Assumptions ##
+
 
 * Group travelers with NO window seat preference get full satisfaction (i.e. score of 1) if they seat with their group. 
 
@@ -50,9 +51,9 @@ higher total satisfaction.
 
 * Any form of invalid input will terminate the application.
 
-----------------------
-GENERAL APPROACH
-----------------------
+
+## General Approach ##
+
 
 This is an NP-complete problem and I have approached it using a greedy approximation algorithm. I see this as a variation
 of the bin packing problem which tries to fit objects of different volumes in a finite number of bins. My approach is a 
@@ -67,9 +68,9 @@ modification to the algorithm. After configuration, the virtual rows are cut-off
 n rows (n being number of plane rows) of the virtual rows yield approximately the maximum possible satisfaction. Please,
 read the next section for more details.
 
-----------------------
-DETAILED APPROACH
-----------------------
+
+## Detailed Approach ##
+
 
 1. Read and parse input file. The passengers are represented as a 2D list. Each element in the 1D is a list of
  group travelers. All passengers are read and considered at this point regardless of the actual size of the plane.
@@ -110,9 +111,9 @@ actual rows is n then we get only the first n virtual rows.
 
 16. Calculate the total satisfaction.
 
-----------------------
-CLASSES
-----------------------
+
+## Classes ##
+
 
 * Main - the driver of the application
 * Passenger - holds information about a traveler
@@ -121,9 +122,9 @@ CLASSES
 * PassengerParser - parses the input
 * SeatAllocator - the heart of the application, computes sitting arrangement and satisfaction
 
-----------------------
-BUILDING AND RUNNING
-----------------------
+
+## Building and running ##
+
 
 * The project was built using maven 3.3.9 and Java 1.8.0_91
 
@@ -139,9 +140,9 @@ Replace the input file with one of the other files in the directory if needed
 
 * link to application: https://www.dropbox.com/s/d3c73c07wckor29/seatallocator_jar_and_inputs.zip?dl=0
 
-----------------------
-TESTS
-----------------------
+
+## Tests ##
+
 
 * There are two classes that implement a total of 16 test cases. 7 cases of various valid inputs and 9 cases
 that test the application will not crash and behave as appropriate on invalid input. 
