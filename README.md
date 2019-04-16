@@ -1,5 +1,5 @@
 # seatallocator #
------------------
+- - - -
 
 ## Author ##
 
@@ -135,7 +135,12 @@ as a maven project.
 
 * Below I also provide a link to the final jar file including sample inputs. To run the application,
 cd inside the directory of the provided jar file and type the following command in the 
-terminal: java -jar seatallocator-0.0.1-SNAPSHOT.jar Input.Normal
+terminal: 
+
+`code()`
+
+java -jar seatallocator-0.0.1-SNAPSHOT.jar Input.Normal
+
 Replace the input file with one of the other files in the directory if needed
 
 * link to application: https://www.dropbox.com/s/d3c73c07wckor29/seatallocator_jar_and_inputs.zip?dl=0
