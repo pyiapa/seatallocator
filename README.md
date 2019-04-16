@@ -12,7 +12,7 @@ Email: pyiapa@gmail.com
 
 This project determines the best sitting arrangements for a flight. 
 It takes as an input a file of passengers and plane dimensions (as a command line argument) 
-and prints the results to standard output.
+and prints the results to standard output.  
 The output is the best passenger sitting configuration as well as overall satisfaction based on passenger preferences.
 
 ## Assumptions ##
@@ -62,7 +62,7 @@ variation of the First-fit Decreasing algorithm for the bin packing problem.
 Larger groups of travelers (but that are able to fit in a row) are considered first as they are more constraint and curry many
 satisfaction points. If two groups have the same size, then the group with more window preferences is considered first.
 Thus, we operate by first sorting groups of travelers to be seated in decreasing order by their sizes, and then inserting each 
-group into the first row in the plane with sufficient remaining space.
+group into the first row in the plane with sufficient remaining space.  
 My approach operates with virtual plane rows, allowing the case of over-subscripted plane to be considered without any
 modification to the algorithm. After configuration, the virtual rows are cut-off to the size of the plane rows. The top
 n rows (n being number of plane rows) of the virtual rows yield approximately the maximum possible satisfaction. Please,
@@ -137,10 +137,11 @@ as a maven project.
 cd inside the directory of the provided jar file and type the following command in the 
 terminal: 
 
-`code()`
+```java
 
 java -jar seatallocator-0.0.1-SNAPSHOT.jar Input.Normal
-
+```
+  
 Replace the input file with one of the other files in the directory if needed
 
 * link to application: https://www.dropbox.com/s/d3c73c07wckor29/seatallocator_jar_and_inputs.zip?dl=0
