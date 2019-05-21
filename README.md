@@ -15,6 +15,45 @@ It takes as an input a file of passengers and plane dimensions (as a command lin
 and prints the results to standard output.  
 The output is the best passenger sitting configuration as well as overall satisfaction based on passenger preferences.
 
+## Input and Output ##
+
+An example input is shown below:
+
+
+4 4
+1W 2 3
+4 5 6 7
+8
+9 10 11W
+12W
+13 14
+15 16
+
+
+The first line specifies the dimensions of the plane. 
+The first digit is the number of seats in a row and the second digit is the number of rows on the plane.
+
+
+Each subsequent line describes a group of travellers. For example, the first line of travelers
+describes a group of three where the first traveller has a preference for a window seat. Each
+number uniquely identifies the traveller on the flight.
+The output for the above file should be:
+
+
+1 2 3 8
+4 5 6 7
+11 9 10 12
+13 14 15 16
+100%
+
+
+The program should aim to maximize customer satisfaction. The last line in the above output
+indicates the percentage of customers that have had their preferences satisfied. If the plane
+is over subscribed the program should aim to maximize customer satisfaction of those
+customers waiting for the flight.
+
+
+
 ## Assumptions ##
 
 
