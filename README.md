@@ -20,22 +20,14 @@ The output is the best passenger sitting configuration as well as overall satisf
 An example input is shown below:
 
 
-4 4
-
-1W 2 3
-
-4 5 6 7
-
-8
-
-9 10 11W
-
-12W
-
-13 14
-
-15 16
-
+4 4  
+1W 2 3  
+4 5 6 7  
+8  
+9 10 11W  
+12W  
+13 14  
+15 16  
 
 
 The first line specifies the dimensions of the plane. 
@@ -48,15 +40,11 @@ number uniquely identifies the traveller on the flight.
 The output for the above file should be:
 
 
-1 2 3 8
-
-4 5 6 7
-
-11 9 10 12
-
-13 14 15 16
-
-100%
+1 2 3 8  
+4 5 6 7  
+11 9 10 12  
+13 14 15 16  
+100%  
 
 
 The program should aim to maximize customer satisfaction. The last line in the above output
