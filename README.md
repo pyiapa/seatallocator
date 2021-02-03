@@ -7,7 +7,7 @@ Name:  Paris Yiapanis
 Email: pyiapa@gmail.com
 
 
-## Project Description ##
+# Problem Description #
 
 
 This project determines the best sitting arrangements for a flight. 
@@ -52,6 +52,7 @@ indicates the percentage of customers that have had their preferences satisfied.
 is over subscribed the program should aim to maximize customer satisfaction of those
 customers waiting for the flight.
 
+# My solution #
 
 
 ## Assumptions ##
